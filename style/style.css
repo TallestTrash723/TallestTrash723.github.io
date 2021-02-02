@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.row{
+	display: flex;
+}
+body{
+	background-image: url(../image/background.jpg);
+}
+
+p {
+	color: #911800;
+	background-color: #a6fff8;
+	font-family: fantasy;
+	font-size: 30px;
+	margin: 10px 0px;
+}
+.content {
+	background-color: #00fff7;
+	width: 1200px;
+	margin: 0 auto;
+	padding: 10px;
+}
+.box{
+	text-align: center;
+    width: 150px;
+    margin: 5px;
+    flex-grow: 1;
+    background-color: #d2e3cf;
+    border: 4px ridge black;
+}
+.box:hover{
+    border: 10px ridge #9cfff8;
+	background-color: #d2e3cf; 
+}
+.car{
+	height: 120px;
+	width: 120px;
+}
